@@ -366,7 +366,7 @@ def create_virtualenvs():
     require('virtualenv_root', 'virtualenv_root_preindex',
             provided_by=('staging', 'production', 'india'))
 
-    args = '--distribute --no-site-packages'
+    args = '--system-site-packages'
     sudo('cd && virtualenv %s %s' % (args, env.virtualenv_root), user=env.sudo_user, shell=True)
     sudo('cd && virtualenv %s %s' % (args, env.virtualenv_root_preindex), user=env.sudo_user, shell=True)
 
