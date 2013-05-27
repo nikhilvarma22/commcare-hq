@@ -16,7 +16,7 @@ django-digest==1.13
 django-rosetta==0.7.1
 django-tastypie==0.9.14
 djtables==0.1.1
-egenix-mx-base==3.2.6
+egenix-mx-base
 eulxml==0.18.0
 gunicorn==0.15.0
 lxml==2.3
