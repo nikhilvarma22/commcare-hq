@@ -39,7 +39,7 @@ RSYNC_EXCLUDE = (
     '*.db',
     )
 env.project = 'commcare-hq'
-env.code_repo = 'https://github.com/nikhilvarma22/commcare-hq.git'
+env.code_repo = 'git://github.com/nikhilvarma22/commcare-hq.git'
 
 if not hasattr(env, 'code_branch'):
     print "WARNING: code_branch not specified, using 'master'. You can set it with '--set code_branch=<branch>'"
